@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>시드물 베스트상품</title>
+  <link rel="stylesheet" href="css/import.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+  <!-- <script src="js/jquery-1.12.3.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="js/swiper-bundle.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/best_sub.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <h1><a href="index.html" class="hidden">로고</a></h1>
+        <nav>
+          <ul class="main_menu clear">
+            <li>
+              <a href="#">상품소개</a>
+              <ul class="sub_menu clear">
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">NEW</a></li>
+                <li><a href="#">기능별</a></li>
+                <li><a href="#">고민별</a></li>
+                <li><a href="#">성분라인별</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">시드물소개</a>
+              <ul class="sub_menu clear">
+                <li><a href="#">연혁/개요/비전</a></li>
+                <li><a href="#">나눔과 실천</a></li>
+                <li><a href="#">개발</a></li>
+                <li><a href="#">오시는 길</a></li>
+                <!-- <li><a href="#">성분라인별</a></li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="review.html">사용후기</a>
+              <ul class="sub_menu clear">
+                <li><a href="#sec01">베스트후기</a></li>
+                <li><a href="#sec02">포토후기</a></li>
+                <li><a href="#sec03">텍스트후기</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">성분사전</a>
+            </li>
+            <li>
+              <a href="#">이벤트</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="button_wrap">
+          <a href="#" class="menu hidden">메뉴</a>
+          <a href="#" class="my hidden">마이</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bestItem">
+      <!-- inner -->
+      <div class="inner">
+        <!-- txtBox -->
+        <div class="txtBox">
+          <h2>BEST ITEM</h2>
+          <select name="item" id="item">
+            <option value="pro01" selected>종류 선택하기</option>
+            <option value="pro02">스킨케어</option>
+            <option value="pro03">립/아이</option>
+            <option value="pro04">색조</option>
+            <option value="pro05">지성</option>
+            <option value="pro06">아토피</option>
+          </select>
+        </div>
+        <!-- txtBox -->
+        <!-- div bestWrap -->
+        <div class="swiper bestWrap">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/product/product01.png" alt="product01">
+                <p>마다가스카르 리얼 수분크림 80g</p>
+                <span>23800원</span>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/product/product02.png" alt="product02">
+                <p>비 테라피 미스트 120ml</p>
+                <span>15800원</span>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/product/product03.png" alt="product02">
+                <p>울트라 페이셜 나이트케어 보습젤</p>
+                <span>23800원</span>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/product/product04.png" alt="product03">
+                <p>사카로 광채 토너</p>
+                <span>19600원</span>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+                <img src="img/product/product05.png" alt="product05">
+                <p>사카로 광채 앰플</p>
+                <span>30870원</span>
+              </a>
+            </li>
+          </ul>
+          <div class="btnWrap">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+        <!-- div bestWrap -->
+        <a href="#Best" class="more">상품보러가기</a>
+      </div>
+      <!-- inner -->
+    </section>
+
+    <!-- section productList -->
+    <section id="Best" class="productList sec02">
+      <div class="inner">
+        <ul class="conBox">
+          <li>
+            <h3>01</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product01.png" alt="01">
+              </a>
+            </div>
+            <div class="txtBox">
+              <h3>마다가스카르 리얼 수분크림 80g</h3>
+              <ul class="subTag">
+                <li>#수분보습</li>
+                <li>#장벽강화</li>
+              </ul>
+            </div>
+            <div class="price">
+              <span>23800원</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>02</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product02.png" alt="02">
+              </a>
+            </div>
+            <div class="txtBox">
+              <h3>비 테라피 미스트 120ml</h3>
+              <ul class="subTag">
+                <li>#아크바이</li>
+                <!-- <li>#장벽강화</li> -->
+              </ul>
+            </div>
+            <div class="price">
+              <span>15800원</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>03</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product03.png" alt="03">
+              </a>
+            </div>
+            <div class="txtBox">
+              <h3>울트라 페이셜 나이트케어 보습젤</h3>
+              <ul class="subTag">
+                <li>#주름개선</li>
+                <li>#탄력</li>
+              </ul>
+            </div>
+            <div class="price">
+              <span>23,800원</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>04</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product04.png" alt="04">
+              </a>
+            </div>
+            <div class="txtBox">
+              <h3>사카로 광채 토너<br></h3>
+              <ul class="subTag">
+                <li>#주름개선</li>
+                <li>#화이트닝</li>
+              </ul>
+            </div>
+            <div class="price">
+              <span>19,600원</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>05</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product05.png" alt="05">              </a>
+            </div>
+            <div class="txtBox">
+              <h3>사카로 광채 앰플<br></h3>
+              <ul class="subTag">
+                <li>#효모발효</li>
+                <li>#광채</li>
+              </ul>
+            </div>
+            <div class="price">
+              <span>30,870원</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>06</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product06.png" alt="06">
+              </a>
+            </div>
+            <div class="txtBox">
+              <h3>녹차스킨 150ml<br></h3>
+              <ul class="subTag">
+                <!-- <li>#효모발효</li> -->
+                <li>#수분보습</li>
+              </ul>
+            </div>
+            <div class="price">
+              <span>4,300원</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>07</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product07.png" alt="07">
+              </a>
+            </div>
+            <div class="txtBox">
+              <h3>녹차 필링젤 120ml<br></h3>
+              <ul class="subTag">
+                <li>#각질관리</li>
+                <li>#모공관리</li>
+              </ul>
+            </div>
+            <div class="price">
+              <span>4,800원</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>08</h3>
+            <div class="btnWrap">
+              <a href="#shopping"><i class="fas fa-shopping-bag"></i></a>
+              <a href="#love"><i class="fas fa-heart"></i></a>
+            </div>
+            <div class="img">
+              <a href="#product">
+                <img src="img/product/product08.png" alt="08">
+              </a>
+            </div>
+            <div class="txtBox">
+              <h3>녹차 화이트닝 아이크림 <br></h3>
+              <ul class="subTag">
+                <li>#화이트닝</li>
+                <li>#다크스팟</li>
+              </ul>
+            </div>
+            <div class="price">
+              <span>16,800원</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- section productList -->
+    <footer>
+      <div class="inner">
+        <div class="sns">
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="txt_box">       
+          <table>
+            <tr>
+              <td>대전광역시 중구 안영로 42(안영동)</td>
+            </tr>
+            <tr>
+              <td>TEL: 1577-9638</td>
+            </tr>
+            <tr>
+              <td>통신판매업신고번호: 제2008-대전중구-0247호</td>
+            </tr>
+            <tr>
+              <td>COPYRIGHT &copy 2008 SIDMOOL ALL RIGHTS RESERVED.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </footer>
+
+ 
+ 
+  </div>
+</body>
+
+</html>

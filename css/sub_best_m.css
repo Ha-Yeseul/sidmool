@@ -1,0 +1,224 @@
+@charset "utf-8";
+@import url(reset.css);  /* reset이 먼저 나야 함*/
+
+@media (min-width:375px){
+ 
+  .bestItem{
+    background: url(../img/bestProduct_bg.jpg) no-repeat center / cover;
+    padding: 100px 0;
+    /* height: 80vh; */
+    position: relative;
+    z-index: 2;
+  }
+
+  .bestItem .inner, .productList .inner{
+      width: 90%;
+      margin: 0 auto;
+      position: relative;    
+  }
+
+  .bestItem::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* height: 80vh; */
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+
+  }
+
+  .bestItem .txtBox{
+    z-index: 2;
+    text-align: center;
+    padding: 20px ;
+    position: relative;
+  }
+
+  h2::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 1px;
+    background-color: #3b3732;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  h2{
+    position: relative;
+    font-size: 2.8rem;
+    padding: 20px 0;
+    font-weight: bolder;
+  }
+
+  .bestItem #item{
+    padding: 5px 20px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .bestItem #item option{
+    background-color: transparent;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .bestWrap{
+    padding: 50px 0;
+  }
+
+  .bestWrap li.swiper-slide{
+    background-color: transparent;
+  }
+
+  .bestWrap li.swiper-slide img{
+    width: 300px;
+    height: auto;
+  }
+
+  .bestWrap .btnWrap > div.swiper-button-next{
+    position: absolute;
+    right: 20px;
+  }
+
+  .bestWrap .btnWrap > div.swiper-button-prev{
+    position: absolute;
+    left: 20px;
+  }
+
+  .bestItem .more{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #3b3732;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.4rem;
+    transition: all 0.5s;
+  }
+
+  .bestItem .more:hover{
+    background-color: #314c5d;
+    border: 1px solid #314c5d;
+    color: #fff;
+  }
+ 
+  .productList{
+    padding: 50px 0;
+    transition: all 0.5s;
+  }
+
+  .productList .conBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .productList .conBox>li{
+    width: 48%;
+    padding: 10px 0;
+    background-color: #f7f5f5;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.19), 0 2px 5px rgba(0, 0, 0, 0.20);
+  }
+
+  .productList .conBox>li:hover{
+    background-color: #c5e4de;
+  }
+
+  .productList .conBox>li>h3{
+    font-size: 1.6rem;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .productList .btnWrap{
+    float: right;   
+    width: 40%;
+    padding: 5px 10px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .productList .btnWrap>a{  
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;  
+    margin-right: 10px;
+  }
+
+  .productList .btnWrap>a:last-child{
+    margin-right: 0;
+  }
+
+  .productList .btnWrap a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem;
+    color: #555;
+  }
+
+  .productList .btnWrap a.on i{
+    color: salmon;
+  }
+
+  .productList .btnWrap a:hover i{
+    color: salmon;
+  }
+
+  .productList li img{
+    width: 100%;
+    height: auto;
+  }
+ 
+  .productList .txtBox h3{
+    text-align: center;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  .productList .subTag{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .productList .subTag>li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1.4rem;
+    color: #777;
+  }
+  .productList .price{
+    padding: 10px;   
+    position: relative;
+  }
+  .productList span{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 50%; 
+    bottom: 2px;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+
+  
+ 
+}

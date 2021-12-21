@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+@media (min-width: 768px){
+  .bg .inner{
+    padding-top: 10vh;
+  }
+  .bg .txt h2{
+    font-size: 4.8rem;
+    padding-bottom: 10px;
+  }
+
+  .bg .txt p{
+    font-size: 2rem;
+    padding-bottom: 50px;
+  }
+
+  .EventNotice table{
+    width: 50%;
+  }
+
+  .EventNotice td{
+    padding: 20px 0;
+  }
+
+  .EventNotice td:first-child{
+    font-size: 2rem;
+  }
+  .EventNotice td:nth-child(2){
+    font-size: 1.6rem;
+  }
+
+  #bestReview .inner{
+    width: 80%;
+    padding: 150px 0;
+  }
+
+  #bestReview .swiper-button-next{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+  }
+
+  
+  #bestReview .swiper-button-prev{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+  }
+
+  #bestReview .swiper-slide{
+    height: 450px;
+  }
+
+  #bestReview .card{
+    width: 70%;
+    height: 90%;
+  }
+
+  #bestReview .front .txtbox{
+    width: 80%;
+    padding: 20px 0;
+    position: relative;
+  }
+  #bestReview .front .txtbox h4{
+    font-size: 2.8rem;
+  }
+  #bestReview .front .txtbox p{
+    font-size: 1.8rem;
+    padding-top: 50px;
+  }
+
+  #bestReview .front .txtbox span{
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #bestReview .back .txtbox p{
+    font-size: 1.6rem;
+    -webkit-line-clamp:6; 
+  }
+ 
+  .photoReview li{
+    width: 30%;
+    margin-bottom: 50px;
+  }
+
+  .photoReview .inner{
+    width: 80%;
+  }
+
+  .photoReview h2{
+    padding: 50px 0;
+  }
+
+  .photoReview h2:before{
+    top: 40px;  
+  }
+
+  .photoReview .imgBox{
+    height: 300px;
+  }
+
+  .photoReview .imgBox img{
+    top: -50%;
+  }
+
+  .photoReview .txtbox h4{
+    font-size: 2rem;
+    padding-bottom: 10px;
+  }
+
+  .photoReview .txtbox span{
+    font-size: 1.6rem;
+  }
+
+  .photoReview .txtbox{
+    padding: 20px 0 80px;
+  }
+
+  .photoReview .txtbox p{
+    font-size: 1.4rem;
+  }
+
+  .photoReview .more{
+    font-size: 1.6rem;
+  }
+
+  .txtReview .inner{
+    width: 70%;
+  }
+
+  .txtReview .inner .board{
+    padding: 50px 0;    
+  }
+
+
+  .txtReview .inner h3{
+    font-size: 2rem;
+  }
+
+  .txtReview .inner .txtbox h4{
+    font-size: 1.6rem;
+  }
+
+  .txtReview .inner .txtbox p{
+    font-size: 1.4rem;
+  }
+
+  .txtReview .more{
+    display: inline-block;
+    width: 7%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+
+  .txtReview ul.hidden{
+    display: none;
+  }
+
+}
+

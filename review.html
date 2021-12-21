@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>시드물 리뷰 이벤트</title>
+  <link rel="stylesheet" href="css/import.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+  <!-- <script src="js/jquery-1.12.3.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="js/swiper-bundle.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/best_sub.js"></script>
+  <script src="js/review.js"></script>
+  <script src="js/jquery.flip.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <h1><a href="index.html" class="hidden">로고</a></h1>
+        <nav>
+          <ul class="main_menu clear">
+            <li>
+              <a href="#">상품소개</a>
+              <ul class="sub_menu clear">
+                <li><a href="best_sub.html">BEST</a></li>
+                <li><a href="#">NEW</a></li>
+                <li><a href="#">기능별</a></li>
+                <li><a href="#">고민별</a></li>
+                <li><a href="#">성분라인별</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">시드물소개</a>
+              <ul class="sub_menu clear">
+                <li><a href="#sec01">연혁/개요/비전</a></li>
+                <li><a href="#sec02">나눔과 실천</a></li>
+                <li><a href="#sec03">개발</a></li>
+                <li><a href="#sec04">오시는 길</a></li>
+                <!-- <li><a href="#">성분라인별</a></li> -->
+              </ul>
+            </li>
+            <li>
+              <a href="review.html">사용후기</a>
+              <ul class="sub_menu clear">
+                <li><a href="review.html">베스트후기</a></li>
+                <li><a href="#sec03">포토후기</a></li>
+                <li><a href="#sec04">텍스트후기</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">성분사전</a>
+            </li>
+            <li>
+              <a href="#">이벤트</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="button_wrap">
+          <a href="#" class="menu hidden">메뉴</a>
+          <a href="#" class="my hidden">마이</a>
+        </div>
+      </div>
+    </header>
+    <!-- section bg -->
+    <section class="bg">
+      <div class="inner">
+        <div class="txt">
+          <h2>review</h2>
+          <p>고객님의 소중한 리뷰를 남겨주세요</p>
+          <a href="#" class="plus">
+            <i class="fas fa-plus"></i>
+          </a>
+        </div>
+        <div class="EventNotice">
+          <form>
+            <table>
+              <tr>
+                <td>best reviewer</td>
+                <td>우수후기를 남겨주신 고객님들 중 <strong>3명</strong>을 선정하여 <strong>20,000</strong>포인트를 지급합니다</td>
+              </tr>
+              <tr>
+                <td>power reviewr</td>
+                <td>이벤트 기간 중 <strong>많은 후기</strong>를 남겨주신 1명을 선정하여 <strong>30,000</strong>포인트를 지급합니다</strong></td>
+              </tr>
+            </table>
+          </form>
+          <p>*동일 아이디 중복후기 금지</p>
+        </div>
+        <a href="#bestReview" class="btn">리뷰보러가기</a>
+      </div>
+    </section>
+    <!-- section bg -->
+
+    <!-- section bestReview -->
+    <section id="bestReview" class="sec02">
+      <div class="inner">
+        <h2>BEST REVIEW AWARD</h2>
+
+        <div class="swiper reviewCard">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <!-- card -->
+              <div class="card">
+                <div class="front">
+                  <div class="txtbox">
+                    <h4>best review</h4>
+                    <p> 가볍고 내성없는<br> 녹차스킨후기!</p>
+                    <span>하○○님</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="imgBox">
+                    <img src="img/review/review01.png" alt="rev01">
+                  </div>
+                  <div class="txtbox">
+                    <p>
+                      몇년째 쓰는거 같아요!
+                      중간에 다른걸로 왔다갔다한적도 있으나
+                      역시 녹차스킨이 좋은것같아요!
+                    </p>
+                  </div>
+                  <a href="#reivew" class="more">리뷰더보기</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+            <div class="swiper-slide">
+              <!-- card -->
+              <div class="card">
+                <div class="front">
+                  <div class="txtbox">
+                    <h4>best review</h4>
+                    <p> 레이저 관리 받으시면 이거 꼭 필수로 쓰세요
+                    </p>
+                    <span>김○○님</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="imgBox">
+                    <img src="img/review/review02.jpg" alt="rev01">
+                  </div>
+                  <div class="txtbox">
+                    <p>
+                      이거 진짜 좋아서 5통이나 썼는데
+                      왜 후기가 별로 없죠?
+                      기미레이저 받고 뒤집어져서 어떤 크림이 좋을 지 문의 했더니
+                      힐스크림을 추천해주셔서 바르기 시작했어요
+                      바르기 시작한 지 3일만에 큰 트러*들이 다 가라앉았어요
+                      일주일 되니까 뒤집어졌던 피부가 싹 가라 앉고
+                      2주차 되니까 전체적으로 반짝반짝하는 게
+                      피부가 정말 좋아져요
+                    </p>
+                  </div>
+                  <a href="#reivew" class="more">리뷰더보기</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+            <div class="swiper-slide">
+              <!-- card -->
+              <div class="card">
+                <div class="front">
+                  <div class="txtbox">
+                    <h4>best review</h4>
+                    <p> 말해뭐에요. 없으면 불안해요</p>
+                    <span>이○○님</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="imgBox">
+                    <img src="img/review/review03.jpg" alt="rev01">
+                  </div>
+                  <div class="txtbox">
+                    <p>
+                      외출시엔 징크앰플 쓰고
+                      자기전에 징크크림 듬뿍 바르고 자면
+                      다음날 세안 후 기적이 일어나요
+                      저는 여드*뿐만 아니라 블랙헤드에도 효과 많이 봤어요.
+                      성분에 호호바오일등 오일이 몇가지 들어있는데
+                      아무래도 피지가 지용성이다보니 자는 동안 녹여주나 봐요
+                      하지만 가끔 엉뚱한곳에 하얀 작은 여드* 올라올 때도 있는데
+                      그거 감안하고도 너무 좋아서 써요.
+                      시드물은 진짜 피부과도 못고친 제 피부의 혁명같은 곳이에요.
+                      그리고 화장품을 단지 사서 쓰는게 아니라 공부하게 하고
+                      본인 피부를 잘 돌아볼 수 있게 하네요 ㅠㅠ
+                      시드물 화장품들은 단일성분에 특화된것들이 많아서
+                      아무 생각없이 쓰면 별 효과 못보는데
+                      본인 피부상태를 객관적으로 잘 파악해서 화장품을 잘 조합서 쓰면
+                      화다도 되고 피부도 좋아지고 여러므로 비용도 절감되고
+                      시드물 쓰고 나서 이제 피부때문에 스트레스 안받아요.
+                      아직 갈길이 멀지만 전처럼 막막하진 않네요
+                    </p>
+                  </div>
+                  <a href="#reivew" class="more">리뷰더보기</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+            <div class="swiper-slide">
+              <!-- card -->
+              <div class="card">
+                <div class="front">
+                  <div class="txtbox">
+                    <h4>best review</h4>
+                    <p> 건조한 바디에도 답답함 없이 보습 최고에요!</p>
+                    <span>하○○님</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="imgBox">
+                    <img src="img/review/review04.jpg" alt="rev01">
+                  </div>
+                  <div class="txtbox">
+                    <p>
+                      얼굴은 수부지 민감인데
+                      바디는 극건성이에요.
+                      등드*가드*도 있구요.
+                      365크림 바르다가 너무 비싸서
+                      다 떨어진김이 오트밀 주문했어요.
+                      집에있는 로즈힙 오일 한두방울 걲어서 발라주니 무겁지도 않으면서 다음날 샤워 때 까지 촉촉해요.
+                      다리 쪽은 너무 건조해서 한번더 레이어링 해줬어요.
+                      오트밀에 호호바오일도 추천 조합이에요
+                      몸드름에도 부담없이 쓸 수 있어 좋아요
+                    </p>
+                  </div>
+                  <a href="#reivew" class="more">리뷰더보기</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+            <div class="swiper-slide">
+              <!-- card -->
+              <div class="card">
+                <div class="front">
+                  <div class="txtbox">
+                    <h4>best review</h4>
+                    <p> 오트밀 수분크림이랑 궁합 엄청 좋아요!!!!
+                    </p>
+                    <span>박○○님</span>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="imgBox">
+                    <img src="img/review/review05.png" alt="rev01">
+                  </div>
+                  <div class="txtbox">
+                    <p>
+                      오트밀 수분크림만 사용했었는데
+                      오트밀 수분크림이 아주 가벼운 제형이라
+                      수분감이 아쉽더라구요
+                      그래서 수분크림에 샘플 섞어서 써봤는데 수분감이 확 좋아져서 본품도 구매했습니다! 가벼운 수분크림이랑 섞어서 써도 좋구요. 이거 먼저 발라주고 수분크림 발라줘도 좋아요.
+                      개인적으로 에센스들은 바르면 얼굴에 끈적함이 남아서 불호인데 이건 마무리감이 매우 산뜻해요 ㅎㅎ
+                    </p>
+                  </div>
+                  <a href="#reivew" class="more">리뷰더보기</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
+    <!-- section bestReview -->
+
+    <!-- section photoReview -->
+    <section class="photoReview" id="sec03">
+      <div class="inner">
+        <h2>photo review</h2>
+        <ul>
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/01.jpg" alt="01">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★</span>
+                <h4>닥터트럽 파하 클렌징 토너 200ml</h4>
+                <span>닦토로 짱이예욥</span>
+                <p>
+                  한달 사용 후기​
+                  ​복합성 + 좁쌀여드* + 민감성 피부
+                  좁쌀여드*은 각질제거가 중요하다고 하는대
+                  모공필링젤은 자극없이 부드럽게 각질되서 좋음.
+                  잘 사용 하고 있음
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/02.jpg" alt="02">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★★</span>
+                <h4>닥터갈라톡 화이트닝 스팟 크림</h4>
+                <span>화이트닝 크림 후기</span>
+                <p>
+                  매일 쓰다보니 벌써 2통째 사용 중입니다! 아직 큰 효과는 모르겠지만 자극이 없어서 편하게 사용하고 있어요! 계속 쓰다보면 효과가 나타날거라 믿고 꾸준히 사용하고 있네요:)
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/03.jpg" alt="03">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★★</span>
+                <h4>닥터트럽 스킨 리터닝 아이패치</h4>
+                <span>아이패치 후기</span>
+                <p>
+                  엄마한테 사드렸더니 촉촉하고 좋다고 하시네요! 자극도 없고 데일리로 사용하기 좋으시대요!
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/04.jpg" alt="03">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★</span>
+                <h4>워터풀 퓨어 에센스 마스크 시트</h4>
+                <span>쟈주 이용합니다</span>
+                <p>
+                  자주 이용하고있어요 1일 1팩중입니다
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/05.jpg" alt="05">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★★</span>
+                <h4>그린티 스킨 외</h4>
+                <span>녹차어벤져스군단들~</span>
+                <p>
+                  녹차시리즈는 필링제로 처음 사용하기 시작한 라인이에요~
+                  타제품에 비해 순한 느낌의 필링이 좋아 계속하여 사용 중 아이크림, 스킨, 폼클렌져을 구매했는데 전부 사용 만족하고 있습니다ㅋㅋ 제품별로 여름은 가볍게 사용하기에 좋고 환절기에는 또
+                  나름 보습제품으로도 좋고~ 하나둘 사용제품이 녹차라인으로 바꿔가고 있네요ㅎㅎ
+                  그러면서 남편도 하나둘 바꿔주고 있어요. 저랑 피부가 완전 반대라 서로 필요한 제품은 나누고 공용제품은 같이 쓰고 있어용
+                  특히나 환경적으로 가격적으로도 소비자 마음에 쏙 드는 제품입니다~
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/06.jpg" alt="06">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★★</span>
+                <h4>비 테라피 프로폴리스 앰플</h4>
+                <span>프로폴리스 엠플 후기</span>
+                <p>
+                  프로폴리스 앰플을 꾸준히 쓰니까 여드*도 덜나고 피부재*에 도움이 되는 것 같아서 이번에 구입하고나서 또 구매할 예정 입니다
+                  냄새는 좀 강하지만 효과는 좋은 갓 같아요
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+        </ul>
+        <!-- <a href="#more" class="add">
+          <i class="fas fa-plus"></i>
+        </a>      -->
+        <ul class="reviewAdd hidden">
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/07.jpg" alt="06">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★</span>
+                <h4>까라꼴 포어 타이트닝 팩</h4>
+                <span>까라꼴 포어 타이트닝 팩 후기</span>
+                <p>
+                  저는 주 1회 사용중인데요! 피부가 나쁜편이 아닌데 모공이 신경쓰여서 도전해봤어요~~
+                  하고나면 피부결 자체도 좋아지고, 팩하는 동안 모공을 조여주는 느낌이 들어서 신기해요!!!
+                  꾸준히 해서 모공 미인도 되려구용ㅎㅎ
+                  추천합니닷!!!
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/08.jpg" alt="08">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★★</span>
+                <h4>다당류 마스크팩</h4>
+                <span>다당류 마스크팩 덕분에</span>
+                <p>
+                  트러* 지성피부인데
+                  다당류 수분 마스크팩 덕분에 트러*도 좀 잠잠해지고 피부톤 전체가 밝아지고 있어요
+                  마스크팩 쓴지 2년이 다되어가는 것 같은데 처음에 1일 1팩하다가 효과보고 1일 2팩 중입니다!! 기름도 많이 줄었어요^^
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+
+          <li>
+            <div class="imgBox">
+              <img src="img/review/photoReview/09.jpg" alt="09">
+            </div>
+            <div class="txtbox">
+              <a href="#more">
+                <span>★★★★★</span>
+                <h4>닥터 트럽 징크크림 외</h4>
+                <span>돌고돌아 시드물</span>
+                <p>
+                  이제품 저제품 써보다 다시 정착했네요
+                  사은품은 말해뭐해 항상 감동이네요
+                  어성초 시카 에선셜쓰니 보들보들 촉촉해요
+                  잘 쓸게요
+                </p>
+              </a>
+            </div>
+            <a href="#more" class="more">리뷰 더 읽기</a>
+          </li>
+        </ul>
+        <a href="#more" class="add">
+          <i class="fas fa-plus"></i>
+        </a>
+      </div>
+    </section>
+    <!-- section photoReview -->
+
+    <!-- section txtReview -->
+    <section id="sec0" class="txtReview">
+      <!-- inner -->
+      <div class="inner">
+        <h2>text review</h2>
+        <div class="board">
+          <ul>
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>김○○</span>
+                </div>
+                <h3 class="product">아크바이™ 모델링
+                  마스크 팩</h3>
+                <div class="txtbox">
+                  <h4> 피부과 유명팩 써도 결국은 이걸로 돌아왔네요</h4>
+                  <p class="ellipsis">아크바이 마스크팩 쓰고 질려서 다른거 사봐도
+
+                    결국은 돌아오더라구요... 이것만큼 사용하고 나서 드라마틱하게 변한걸 느끼게 해주는 마스크팩 없더라고요 피부과에서 쓰는 좋다는 팩도 써봤는데 이것만 못해요.. 남편도 써보고 얼굴이
+                    달라지는게 느껴지니까 자주 해달라고 하더라구요! </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>이○○</span>
+                </div>
+                <h3 class="product">
+                  민중기 FGF 앰플 30ml
+                </h3>
+                <div class="txtbox">
+                  <h4> 신경쓰고 싶을 때 찾아지는 앰플</h4>
+                  <p class="ellipsis">EGF 리퀴드로 모자람이 느껴질 때 그리고 요즘 푸석해진 피부에 미안할 때 요 앰플 듬뿍 발라요! 전 앰플만 쓰면 늘 뭔가 모르게 피부가 나는거
+                    같아 쓰고 싶어도 못써왔는데요 알로에 에센셜이랑 섞어 바르니 정말정말 좋더라구요! 저 같으신분 이 방법 꼭 추천드려요!
+                  </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>이○○</span>
+                </div>
+                <h3 class="product">
+                  마다가스카르 리얼 수분크림 80g
+                </h3>
+                <div class="txtbox">
+                  <h4>온가족이 다써요</h4>
+                  <p class="ellipsis">
+                    몇통째 구매인지 이제 세어보이도 힘드네요 족히 20통은 넘지 않을까 싶어요
+                    엄마 아빠 남동생 남편 저까지 4계절 내내 써요! 누구에게나 다 잘 맞고 특별한 트러* 없이.. 특히나 저와 남동생은 복합성 트러* 피부였는데요 수분크림은 그 때 부터 써서
+                    지금까지 정착이에요 이거 없음 안될정도로 무한 신뢰하고 이것만 써요
+                  </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>박○○</span>
+                </div>
+                <h3 class="product">
+                  민중기 EGF110 리퀴드 110ml
+                </h3>
+                <div class="txtbox">
+                  <h4>피부에 신경 쫌 쓰고 싶으 때 찾는 리퀴드</h4>
+                  <p class="ellipsis">
+                    스킨과 앰플과 그 중간 에센스 라고 해야하나 시드물에서는 리퀴드라고 하더라구요 암튼 좀 편안하게 데일리로 관리하기 좋은 리퀴드에요! 피부에 신경 좀 쓰고 싶다고 생각 들 때 꼭 구매하게 되더라구요 세통째 구매했을라나요.. 써본지 모르고 또 산적도 있어요 그만큼 써보고 싶고 써보면 또 구매하게 되는 리퀴드에요
+                  </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+          </ul>   
+        </div>
+
+        <div class="board plus">
+          <ul>
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>김○○</span>
+                </div>
+                <h3 class="product">아크바이™ 모델링
+                  마스크 팩</h3>
+                <div class="txtbox">
+                  <h4> 피부과 유명팩 써도 결국은 이걸로 돌아왔네요</h4>
+                  <p class="ellipsis">아크바이 마스크팩 쓰고 질려서 다른거 사봐도
+
+                    결국은 돌아오더라구요... 이것만큼 사용하고 나서 드라마틱하게 변한걸 느끼게 해주는 마스크팩 없더라고요 피부과에서 쓰는 좋다는 팩도 써봤는데 이것만 못해요.. 남편도 써보고 얼굴이
+                    달라지는게 느껴지니까 자주 해달라고 하더라구요! </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>이○○</span>
+                </div>
+                <h3 class="product">
+                  민중기 FGF 앰플 30ml
+                </h3>
+                <div class="txtbox">
+                  <h4> 신경쓰고 싶을 때 찾아지는 앰플</h4>
+                  <p class="ellipsis">EGF 리퀴드로 모자람이 느껴질 때 그리고 요즘 푸석해진 피부에 미안할 때 요 앰플 듬뿍 발라요! 전 앰플만 쓰면 늘 뭔가 모르게 피부가 나는거
+                    같아 쓰고 싶어도 못써왔는데요 알로에 에센셜이랑 섞어 바르니 정말정말 좋더라구요! 저 같으신분 이 방법 꼭 추천드려요!
+                  </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>이○○</span>
+                </div>
+                <h3 class="product">
+                  마다가스카르 리얼 수분크림 80g
+                </h3>
+                <div class="txtbox">
+                  <h4>온가족이 다써요</h4>
+                  <p class="ellipsis">
+                    몇통째 구매인지 이제 세어보이도 힘드네요 족히 20통은 넘지 않을까 싶어요
+                    엄마 아빠 남동생 남편 저까지 4계절 내내 써요! 누구에게나 다 잘 맞고 특별한 트러* 없이.. 특히나 저와 남동생은 복합성 트러* 피부였는데요 수분크림은 그 때 부터 써서
+                    지금까지 정착이에요 이거 없음 안될정도로 무한 신뢰하고 이것만 써요
+                  </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="content">
+                <div class="name">
+                  <span>★★★★★</span>
+                  <span>박○○</span>
+                </div>
+                <h3 class="product">
+                  민중기 EGF110 리퀴드 110ml
+                </h3>
+                <div class="txtbox">
+                  <h4>피부에 신경 쫌 쓰고 싶으 때 찾는 리퀴드</h4>
+                  <p class="ellipsis">
+                    스킨과 앰플과 그 중간 에센스 라고 해야하나 시드물에서는 리퀴드라고 하더라구요 암튼 좀 편안하게 데일리로 관리하기 좋은 리퀴드에요! 피부에 신경 좀 쓰고 싶다고 생각 들 때 꼭 구매하게 되더라구요 세통째 구매했을라나요.. 써본지 모르고 또 산적도 있어요 그만큼 써보고 싶고 써보면 또 구매하게 되는 리퀴드에요
+                  </p>
+                </div>
+                <a href="#more" class="more">자세히보기</a>
+              </div>
+            </li>
+          </ul>   
+        </div>
+        
+        <a href="#more" class="add">
+          <i class="fas fa-plus"></i>
+        </a>
+      </div>
+      <!-- inner -->
+    </section>
+    <!-- section txtReview -->
+
+
+    <footer>
+      <div class="inner">
+        <div class="sns">
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="txt_box">
+          <table>
+            <tr>
+              <td>대전광역시 중구 안영로 42(안영동)</td>
+            </tr>
+            <tr>
+              <td>TEL: 1577-9638</td>
+            </tr>
+            <tr>
+              <td>통신판매업신고번호: 제2008-대전중구-0247호</td>
+            </tr>
+            <tr>
+              <td>COPYRIGHT &copy 2008 SIDMOOL ALL RIGHTS RESERVED.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+@charset "utf-8";
+@import url(swiper-bundle.min.css);
+@import url(swiper_slide.css);
+@import url(reset.css);
+
+@media (min-width:768px){
+ 
+
+  .inner{
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: yellow; */
+    position: relative;
+  }
+  header{
+    height: 80px;
+    background-color: transparent;
+    transition: all 0.5s;
+  }
+
+  header.on, nav.on, .main_menu >li>a.on{
+    background-color: #c5e4de;
+  }
+
+  header h1 a{
+    width: 300px;
+    height: 60px;
+    background-size: auto 60px;
+  }
+
+  header .button_wrap a{
+    width: 30px;
+    height: 30px;
+    background-size: 30px auto;
+  }
+
+  header .button_wrap a.menu{
+    display: none;
+  }
+
+  nav{
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 35%;  
+    height: 40px;
+    width: 600px;
+    background-color: transparent;
+    transition: all 0.5s;
+  }
+
+  .main_menu >li{
+    float: left;
+  }
+
+  .main_menu >li>a{
+    display: block;
+    height: 40px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 1.6rem;
+    
+  }
+
+  .sub_menu{
+    display: none;
+  }
+
+  .sub_menu > li > a{
+    display: block;
+    height: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 1.4rem;
+  }
+
+  /* sec01 */
+ 
+  .sec01{   
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  /* sec02 */
+  .sec02{
+    padding: 100px 0;
+  }
+
+  .sec02 ul{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+/* sec03 */
+.sec03 h3{
+  font-size: 3.2rem;
+  margin-bottom: 10px;
+}
+
+.sec03 select{
+  font-size: 1.6rem;
+}
+
+/* sec04 */
+  .sec04{
+    width: 100%;
+    padding: 100px 0;
+  }
+
+  .sec04 .con_wrap{
+    box-shadow:  2px 10px rgba(0, 0, 0, 0.19), 0 2px 6px rgba(0, 0, 0, 0.20);
+  }
+  .sec04 .con_wrap > div{
+    float: left;
+    width: 50%;
+    height: 60vh;
+    
+  }
+  .sec04 .con_wrap_02 > div{
+    float: left;
+    width: 50%;
+  }
+  .sec04 .event a p,.sec04 .notice a p{
+    font-size: 1.6rem;
+  }
+
+  .sec04 a p{
+    font-size: 1.6rem;
+  }
+  .sec04 a h3{
+    font-size: 3.2rem;
+  }
+  .sec04 a:hover h3{
+    font-size: 2.8rem;
+  }
+
+  .sec04 .animal_ban a:hover h3{
+    top: 30%;
+  }
+
+  .sec05 h3{
+    display: inline-block;
+    width: 25%;
+    font-size: 3.2rem;
+    top: 50%;
+    left: 13%;
+    transform: translate(-13%, -50%);
+  }
+
+  .sec05 p{
+    font-size: 2.8rem;
+    top: 50%;
+    left: 44%;
+    transform: translate(-44%, -50%);
+  }
+
+  .sec05 .type{
+    font-size: 1.6rem;
+    top: 50%;
+    left: 65%;
+    transform: translate(-65%, -50%);
+  }
+
+  .sec05 .submit{
+    /* font-size: 1.6rem; */
+    top: 50%;
+    left: 78%;
+    transform: translate(-78%, -50%);
+  }
+
+  .sec05 .submit a{
+    font-size: 1.6rem;
+  }
+
+  /* sec06 */
+  .sec06 > .inner > div{
+    width: 50%;
+    float: left;
+    height: 35vh;
+    box-shadow:  2px 10px rgba(0, 0, 0, 0.19), 0 2px 6px rgba(0, 0, 0, 0.20);
+  }
+
+  .sec06{
+    padding: 100px 0;
+  }
+
+  .sec06 .question h3{
+    font-size: 2.4rem;
+  }
+
+  .question .button_box a{
+    font-size: 1.6rem;
+  }
+
+  .question .txt_box p{
+    font-size: 2.4rem;
+  }
+
+  .question .txt_box span{
+    font-size: 1.6rem;
+  }
+
+  .app .txt_box h3{
+    font-size: 2.4rem;
+  }
+
+  .app .txt_box p {
+    font-size: 1.6rem;
+  }
+
+  .app a{
+    font-size: 1.6rem;
+  }
+  .layer_con{
+    width: 400px;
+  }
+
+  .sec06 > .inner > div.app a{
+    width: 50%;
+  }
+
+  .layer_pop label{
+    font-size: 1.6rem;
+  }
+
+  .layer_pop input#email, .layer_pop input#password{
+    padding: 10px;
+  }
+
+  .layer_pop .btn_wrap > a{
+    font-size: 1.4rem;
+  }
+
+  .sec07{
+    padding: 30px 0;
+    background-color: #c5e4de;
+  }
+
+  .sec07 li{
+    /* height: 120px; */
+  }
+
+  .sec07 p{
+    font-size: 1.2rem;
+  }
+
+  
+  footer .sns {
+    width: 350px;   
+  }
+  .sns li a{
+    width: 40px;
+    height: 40px;
+    background-size: 40px auto;
+  }
+
+  
+  footer table{
+    font-size: 1.4rem;
+  }
+
+}

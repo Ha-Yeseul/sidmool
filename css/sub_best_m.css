@@ -130,6 +130,9 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.19), 0 2px 5px rgba(0, 0, 0, 0.20);
   }
 
+  .sec02 li a {
+    margin-bottom: 0;
+  }
   .productList .conBox>li:hover{
     background-color: #c5e4de;
   }

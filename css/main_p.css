@@ -19,7 +19,7 @@
     transition: all 0.5s;
   }
 
-  header.on, nav.on, .main_menu >li>a.on{
+  header.on, nav.on{
     background-color: #c5e4de;
   }
 
@@ -61,8 +61,7 @@
     padding: 10px 30px;
     text-align: center;
     background-color: transparent;
-    font-size: 1.6rem;
-    
+    font-size: 1.6rem;    
   }
 
   .sub_menu{
@@ -136,11 +135,11 @@
     font-size: 3.2rem;
   }
   .sec04 a:hover h3{
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
 
   .sec04 .animal_ban a:hover h3{
-    top: 30%;
+    top: 35%;
   }
 
   .sec05 h3{

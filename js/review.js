@@ -10,6 +10,32 @@ $(document).ready(function () {
     trigger: 'click'
   });
 
+  // best review
+  // $("#bestReview .more").click(function (e) {
+  //   e.preventDefault();
+  //   // $(".photoReview .txtbox p").addClass("on");
+  //   var attrP = $("#bestReview .back .txtbox p").attr("class");
+  //   var attrA = $(this).attr("class");
+
+  //   console.table(attrP)
+  //   console.table(attrA)
+  //   var attrIdx = attrA.indexOf("click");
+  //   console.log(attrA);
+  //   //버튼새
+  //   if (attrIdx == -1) {
+  //     $(this).addClass("click");
+  //     $(this).parent().find('p').addClass("on");
+  //     console.log("클릭붙이기");
+
+  //   } else {
+  //     $(this).removeClass("click");
+  //     $(this).parent().find('p').removeClass("on");
+  //     console.log("클릭떼기");
+  //   }
+  // });
+  // 리뷰더읽기
+  
+
   $(".photoReview .more").click(function (e) {
     e.preventDefault();
     // $(".photoReview .txtbox p").addClass("on");
@@ -71,12 +97,13 @@ $(document).ready(function () {
       //버튼새
       if (attrIdx == -1) {
         $(this).addClass("on");      
-        $(this).parent().find('p').addClass("ellipsis");
+        $(this).parent().find('p').removeClass("ellipsis");
         console.log("클릭붙이기");
+
   
       } else {
         $(this).removeClass("on");
-        $(this).parent().find('p').removeClass("ellipsis");
+        $(this).parent().find('p').addClass("ellipsis");
         console.log("클릭떼기");
       }
     });

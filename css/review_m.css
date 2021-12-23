@@ -387,7 +387,7 @@
     transition: all 3.5s;
   }
 
-  .photoReview .txtbox p.on {
+  .photoReview .txtbox p.on,  #bestReview .back .txtbox p.on {
     display: block;
     overflow: inherit;
     word-wrap: inherit;

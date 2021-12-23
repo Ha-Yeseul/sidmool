@@ -312,8 +312,7 @@
   .sec04 .notice {
     width: 100%;
     height: 30vh;
-    background-color: yellow;
-    padding: 30px;
+    padding: 20px;
     border-bottom: 1px solid #ddd;
     text-align: center;
     color: #fff;
@@ -400,7 +399,7 @@
     transition: all 0.5s;
     width: 100%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     z-index: 2;
     line-height: 50px;
   }
@@ -419,14 +418,14 @@
   .sec04 a:hover::after {
     opacity: 1;
   }
-
+  
   .notice a::after {
     opacity: 1;
   }
 
   .sec04 a:hover h3 {
     color: #fff;
-    top: 25%;
+    top: 30%;
     background-color: transparent;
     font-size: 2.4rem;
   }
